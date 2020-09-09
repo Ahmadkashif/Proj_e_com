@@ -1,0 +1,100 @@
+.bg-light{
+  background-color: rgb(255, 240, 240) !important;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 2rem !important;
+  border-color: brown;
+  
+  
+}
+.lamagna{
+  width: 7rem;
+  max-height: 3rem;
+}
+/*
+*/
+a:active{
+  border-bottom: brown !important;
+  padding-bottom: 2rem;
+  
+}
+.about_page_content{
+  margin-top: 10rem;
+}
+.nav_cust{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  border-bottom: 2rem !important;
+  border-color: brown;
+}
+.myshopp{
+  font-size: 1.6rem;
+}
+.nav_cont{
+  padding-left: 2rem;
+}
+.navbar-light a{
+  color:rgb(223, 16, 16) !important;
+}
+.d_down a{
+  color:black !important;
+}
+.h{
+  height: 500px !important;
+  
+}
+.carousel_cont
+{
+  margin-top: 55px !important;
+}
+.jumbo_custom{
+  margin-top: 70px !important;
+}
+.margin_top{
+  margin-top: 70px !important;
+}
+.display_cont{
+  margin-top: 25px!important;
+}
+.nav_comp{
+  margin-top: 8rem !important;
+}
+.main-body{
+  background-color: rgb(255, 241, 241)!important; 
+}
+.btn_custom{
+  border-color: white !important;
+  color:white !important;
+}
+.btn_custom_notnav{
+  background-color: rgb(255, 36, 36)!important;
+}
+.btn_custom:hover{
+  border-color: rgb(245, 12, 12) !important;
+  background-color: white !important;
+  color: red !important;
+}
+.img_card_custom{
+  max-height: 300px !important;
+}
+.card_disp_cust{
+  min-height: 300px!important;
+  max-height: 450px !important;
+}
+.card_cust{
+  padding : 1rem;
+  max-width: 100%!important;
+  flex-shrink: 0 ;
+  display: inline-block;
+}
+.main_card_disp_row{
+  display: block;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main_card_body{
+  display: inline-block !important;
+}

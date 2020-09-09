@@ -1,0 +1,45 @@
+<form action="/signup" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" name = "signup[email]" id="inputEmail4" placeholder="Email" required="true">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">User Name</label>
+      <input type="text" class="form-control" name="signup[userName]"id="inputPassword4" placeholder="User Name" required="true">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Password</label>
+    <input type="password" class="form-control" name="signup[password]" id="inputAddress" placeholder="Password" required="true">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Confirm password</label>
+    <input type="password" class="form-control" name="signup[password2]" id="inputAddress2" placeholder="Password" required="true">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <select id="inputCity" class="form-control" name="signup[city]" required="true">
+        <option value="Lahore">Lahore</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="Faisalabad">Faisalabad</option>
+        <option value="Karachi">Karachi</option>
+        <option value="Quetta">Quetta</option>
+        <option value="Peshawar">Peshawar</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputState">Province</label>
+      <select id="inputState" name = "signup[province]" class="form-control" required="true">
+        <option selected>Choose...</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Sindh">Sindh</option>
+        <option value="KPK">KPK</option>
+        <option value="Balochistan">Balochistan</option>
+      </select>
+    </div>
+  </div>
+
+  <button type="submit" action = "/login" method="post" class="btn btn-primary">Create Account</button>
+</form>

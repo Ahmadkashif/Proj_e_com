@@ -1,0 +1,23 @@
+<form class="" action="/addproduct" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Product name</label>
+    <input type="text" class="form-control" name = "prodDetail[prodName]" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Company Name</label>
+    <input type="text" class="form-control" name = "prodDetail[compName]" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Description</label>
+    <input type="text" class="form-control" name = "prodDetail[desc]" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Image</label>
+    <input type="file" class="form-control" name = "prodDetail[image]" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Quantity</label>
+    <input type="number" min="1" class="form-control" name = "prodDetail[Quantity]" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+<button class="btn btn-outline-success my-2 my-sm-0 btn_custom btn_custom_notnav" action = "/addproduct" method = "post" type="submit">Add Product</button>
+</form>
